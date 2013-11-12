@@ -78,7 +78,7 @@ public void getLeaves()
 		Random rn = new Random();
 		int quantity=10;
 		for (int i=0; i<quantity ; i++)
-				b.add(rn.nextInt(30)+100);
+				b.add(rn.nextInt(30)+100); // для работы с 3х значными числами (для красоты)
 		b.getLeaves();
 		b.show();
 	
