@@ -1,0 +1,10 @@
+A class to represent a binary tree of integers
+Methods:
+void add(int newElement)
+boolean exists(int element)
+boolean remove(int element)
+void printByDepth()
+void printByWidth()
+
+If you think it's easy - make it generic (not only int but any T)
+If it's still easy for you - convert it to RB-tree
